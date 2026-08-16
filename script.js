@@ -38,8 +38,8 @@ function dodge(){
   const btnRect = noBtn.getBoundingClientRect();
   const maxLeft = rect.width - btnRect.width;
   const maxTop = rect.height - btnRect.height;
-  const newLeft = Math.random()*Math.max(maxLeft, 30);
-  const newTop = 30 + Math.random()*Math.max(maxTop-30, 30);
+  const newLeft = Math.random()*Math.max(maxLeft, 60);
+  const newTop = 40 + Math.random()*Math.max(maxTop-150, 150);
   noBtn.style.transform = 'none';
   noBtn.style.left = newLeft+'px';
   noBtn.style.top = newTop+'px';
